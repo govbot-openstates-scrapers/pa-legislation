@@ -184,5 +184,17 @@
     ],
     "failure_type": "NONE",
     "error_summary": "09:35:40 ERROR openstates: Bill HR 79 did not scrape due to the page scraping error. Skip "
+  },
+  "2026-10-25": {
+    "warning_count": 6,
+    "error_count": 3,
+    "skipped_count": 0,
+    "sample_warnings": [
+      "08:49:36 WARNING openstates: no session provided, using active sessions: {'2025-2026'}",
+      "09:11:27 WARNING openstates: Skipping SR 119 https://www.palegis.us/legislation/bills/2025/sr119, No title found",
+      "09:34:14 WARNING openstates: Skipping HB 1110 https://www.palegis.us/legislation/bills/2025/hb1110, No title found"
+    ],
+    "failure_type": "P1_SHRINKING_OUTPUT",
+    "error_summary": "    report = do_update(args, other, juris) "
   }
 }
