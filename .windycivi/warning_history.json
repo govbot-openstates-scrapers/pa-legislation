@@ -196,5 +196,17 @@
     ],
     "failure_type": "P1_SHRINKING_OUTPUT",
     "error_summary": "    report = do_update(args, other, juris) "
+  },
+  "2026-10-26": {
+    "warning_count": 5,
+    "error_count": 4,
+    "skipped_count": 0,
+    "sample_warnings": [
+      "09:28:13 WARNING openstates: no session provided, using active sessions: {'2025-2026'}",
+      "09:38:51 WARNING openstates: Skipping SB 838 https://www.palegis.us/legislation/bills/2025/sb838, No title found",
+      "09:49:14 WARNING openstates: Skipping SR 386 https://www.palegis.us/legislation/bills/2025/sr386, No title found"
+    ],
+    "failure_type": "P1_SHRINKING_OUTPUT",
+    "error_summary": "10:33:10 ERROR openstates: Bill HR 60 did not scrape due to the page scraping error. Skip "
   }
 }
