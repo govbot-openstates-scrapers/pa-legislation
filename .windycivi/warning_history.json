@@ -220,5 +220,17 @@
     ],
     "failure_type": "P1_SHRINKING_OUTPUT",
     "error_summary": "10:32:26 ERROR openstates: Bill HR 34 did not scrape due to the page scraping error. Skip "
+  },
+  "2026-10-28": {
+    "warning_count": 4,
+    "error_count": 6,
+    "skipped_count": 0,
+    "sample_warnings": [
+      "10:07:53 WARNING openstates: no session provided, using active sessions: {'2025-2026'}",
+      "10:41:04 WARNING openstates: Skipping HB 899 https://www.palegis.us/legislation/bills/2025/hb899, No title found",
+      "10:58:24 WARNING openstates: Skipping HB 2057 https://www.palegis.us/legislation/bills/2025/hb2057, No title found"
+    ],
+    "failure_type": "P1_SHRINKING_OUTPUT",
+    "error_summary": "11:12:08 ERROR openstates: Bill HB 2555 did not scrape due to the page scraping error. Skip "
   }
 }
